@@ -17,4 +17,11 @@ jobs:
           status: starting
           channel: '#devops'
           message: first task
-        if: failure()
+        if: success()
+        
+        
+      - name: Stamp artifact file name with commit hash
+        run: |
+          run: echo "wtf"  
+        
+     
