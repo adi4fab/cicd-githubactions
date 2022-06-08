@@ -22,7 +22,7 @@ jobs:
         
       - name: Stamp artifact file name with commit hash
         run: |
-          run: echo "wtf"  
+          echo "wtf"  
           
       - name: Slack Notification
         uses: act10ns/slack@v1
