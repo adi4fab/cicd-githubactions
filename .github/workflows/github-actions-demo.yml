@@ -17,4 +17,4 @@ jobs:
           status: starting
           channel: '#devops'
           message: first task
-        if: success()
+        if: failure()
